@@ -18,7 +18,7 @@ class LoginPage extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.done) {
             return Column(
               children: [
-                Text('Login'),
+                Text('Login page for the user'),
               ],
             );
           }
